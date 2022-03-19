@@ -1,0 +1,16 @@
+.imagen-perfil  {
+   background-image: url(../images/Nicolas.jpeg);
+   background-position: top right;
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 190px;
+   width: 100%;
+
+}
+body {
+    background-image: url(../images/imagen-fondo3.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    opacity: 1;
+    
+}

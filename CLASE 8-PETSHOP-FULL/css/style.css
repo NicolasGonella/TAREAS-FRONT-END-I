@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.black-bar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vh 5vw 0.5vh 5vw;
+}
+
+.orange-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    align-items: center;
+    height: 9vh;
+}
+
+.logo{
+    height: 4vh;
+    margin-left: 3vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    filter: sepia(100) brightness(100);
+    height: 3vh;
+}
+
+nav a{
+    color: white;
+    margin: 0 3vh 0 1vh;
+    font-size: 1.2rem;
+}
+
+/** BOWL SECTION **/
+
+.bowl-article{
+    margin-bottom: 5vh;
+    background-image: url("images/bowl-and-pet-daities-on-green-background.png");
+    background-size: cover;
+    background-position: 3.5vh;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.bowl-article-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-right: 10vh;
+}
+
+.bowl-article-div span{
+    margin-bottom: 1.3vh;
+}
+
+.bowl-article-div-t1{
+    background-color: white;
+    font-size: 2.2rem;
+    padding: 0.4rem;
+    border-radius: 0.45rem;
+}
+
+.bowl-article-div button{
+    background-color: #F0A83E;
+    color: white;
+    border-style: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.45rem;
+}
+
+.products-article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products-article-logo{
+    width: 5vw;
+}
+
+.products-article-img{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+.products-article h1{
+    font-size: 2.5rem;
+    color: #3C2313;
+}
+
+.products-article-img div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    font-weight: 500;
+}
+
+.products-article-div{
+    color: #666666;
+}
+
+.products-article-div a{
+    color: #666666;
+    margin: 0 1vw 0 1vw;
+}
+
+.product-span{
+    color: #3C2313;
+}
+
+.price-span{
+    color: #F0A83E;
+}
+
+.contact-article{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.contact-article h2{
+    color: #3C2313;
+    font-size: 2rem;
+}
+
+.contact-article-form{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.contact-article-form input{
+    background-color:#3C2313;
+    color: white;
+    border-style: none;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vh;
+    
+}
+#reset{
+    color: white;
+    background-color:#8A8787 ;
+    border-style: none;
+    border-radius: 1.5rem;
+    width: 8vw;
+    padding: 0.65rem;
+    font-size: 1.1rem;
+}
+
+#send{
+    color: white;
+    background-color: #F0A83E;
+    border-style: none;
+    border-radius: 1.5rem;
+    width: 8vw;
+    padding: 0.65rem;
+    font-size: 1.1rem;
+}
+
+.footer1-3{
+    margin-top: 10vh;
+    padding: 1vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+}
+
+.footer1-3 form button{
+    background-color: #3C2313;
+    border-style: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.footer1-3 form input{
+    border-style: none;
+    color: white;
+    padding: 1rem;
+    width: 20vw;
+    border-radius: 1rem;
+}
+
+.footer2-3{
+    display: flex;
+    background-color: #3C2313;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+}
+
+.footer2-3-elementos{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.footer2-3-elementos span{
+    display: block;
+}
+
+.footer2-3-elementos div{
+    margin-left: 1vw;
+
+}
+
+.text1-2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text2-2{
+    color: #8A8787;
+    font-size: 0.8em;
+}
+
+.logofooter{
+    height: 4vh;
+}
+
+.footer3-3{
+    background-color:#222222 ;
+    color: white;
+    text-align: center;
+    padding: 1vh 0vw;
+}
