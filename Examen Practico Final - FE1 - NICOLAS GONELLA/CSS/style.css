@@ -1,0 +1,913 @@
+/** SELECTOR UNIVERSAL **/
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 0px;
+}
+
+/** HEADER **/
+/** CABECERA **/
+header {
+    height: 100px;
+    padding: 20px;
+    width: 99.2vw;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 160px;
+    width: 99.2vw;
+}
+
+.logoSuperior {
+    padding: 10px;
+}
+
+.menuSuperior {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+.enlacesSuperiores {
+    color: #242E52;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.empezar1 {
+    background-color: #ac7ccc;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.logoMobile {
+    display: none;
+}
+
+/** MAIN **/
+/** SECCIÓN DE ESTADISTICAS **/
+.producto {
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 99.2vw;
+}
+
+.descripcion {
+    align-items: center;
+    height: 600px;
+    width: 20vw;
+}
+
+.titulo {
+    color: #232C50;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.parrafo__boton {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.parrafo1 {
+    font-size: 16px;
+    font-weight: 500;
+    width: 18vw;
+}
+
+.empezar2 {
+    background-color: #ac7ccc;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    margin-left: 5px ;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 12vw;
+}
+
+.variables {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+/** SECCIÓN DE CLASIFICACIÓN **/
+.clasificacion {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top: 10px;
+    width: 99.2vw;
+}
+
+.diferencias {
+    width: 30vw;
+}
+
+.subtitulo1 {
+    color: #232C50;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.parrafo2 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 22vw;
+}
+
+.tabla {
+    width: 35vw;
+}
+
+.uno {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.dos {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.tres {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    width: 500px;
+}
+
+.tabla li {
+    color: #232C50;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.tabla article {
+    padding-left: 80px;
+}
+
+.tabla p {
+    color: #B3B2B7;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    width: 24vw;
+}
+
+/** SECCIÓN DE OPINIONES **/
+.equipo {
+    height: 115vh;
+    width: 99.2vw;
+}
+
+.subtitulo2 {
+    color: #232C50;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    padding: 60px;
+    text-align: center;
+}
+
+.opiniones {
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre {
+    color: #3F4868;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    width: 8vw;
+}
+
+.detalle1 {
+    border: 5px solid white;
+    height: 60vh;
+    width: 33.33vw;
+}
+
+.detalle2 {
+    background-color: #FAFAFA;
+    border: 5px solid white;
+    height: 60vh;
+    margin: 0 auto;
+    width: 33.33vw;
+}
+
+.textos {
+    color: #B9B9C1;
+    font-size: 24.5px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.detalle3 {
+    border: 5px solid white;
+    height: 60vh;
+    width: 33.33vw;
+}
+
+.empezar3 {
+    align-items: center;
+    background-color: #ac7ccc;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    font-weight: 500;
+    height: 60px;
+    justify-content: center;
+    margin: 80px auto;
+    padding: 10px;
+    text-decoration: none;
+    width: 10vw;
+}
+
+/** SECCIÓN DE ESLOGAN **/
+.eslogan {
+    background-color: #abd8a5;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    padding: 10px;
+    width: 99.2vw;
+}
+
+.eslogan h2 {
+    align-self: center;
+    color: #3F4868;
+    font-size: 50px;
+    font-weight: 700;
+    width: 40vw;
+}
+
+.empezar4 {
+    align-self: center;
+    background-color: #ac7ccc;
+    border-radius: 60px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 10vw;
+}
+
+/** FOOTER **/
+/** SECCIÓN DE CIERRE **/
+.pieDePagina {
+    background-color: rgb(63, 36, 73);
+    color: white;
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    width: 99.2vw;
+}
+
+.redes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 60vw;
+}
+
+.logoInferior {
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.iconos {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 70px;
+}
+
+.acceso {
+    color: white;
+    margin-right: 25px;
+}
+
+.menuInferior {
+    display: flex;
+    height: 350px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 99.2vw;
+}
+
+.menuInferior1 {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    text-align: start;
+    width: 20vw;
+}
+
+.enlacesInferiores1 {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menuInferior2 {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    height: 280px;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: start;
+    width: 20vw;
+}
+
+.enlacesInferiores2 {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 45vw;
+}
+
+.formulario input {
+    border-radius: 150px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 20px 35px;
+}
+
+.formulario a {
+    background-color: #abd8a5;
+    border-radius: 30px;
+    color: rgb(63, 36, 73);
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+/** SECCIÓN DE AUTOR / DERECHOS **/
+.autor {
+    background-color: rgb(63, 36, 73);
+    color: #8C8C94;
+    display: flex;
+    font-weight: 500;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    width: 99.2vw;
+}
+
+/** SECCIÓN PARA PSEUDO CLASES **/
+
+.empezar1:active {
+    background-color: #abd8a5;
+    color: rgb(63, 36, 73);
+    font-size: 18px;
+}
+
+.empezar2:active {
+    background-color: #abd8a5;
+    color: rgb(63, 36, 73);
+    font-size: 18px;
+}
+
+.empezar3:active {
+    background-color: #abd8a5;
+    color: rgb(63, 36, 73);
+    font-size: 18px;
+}
+
+.empezar4:active {
+    background-color: rgb(63, 36, 73);
+    color: white;
+    font-size: 18px;
+}
+
+.formulario a:active {
+    background-color: rgb(63, 36, 73);
+    color: #abd8a5;
+    font-size: 30px;
+}
+
+/** SECCIÓN PARA PSEUDO ELEMENTOS **/
+
+.uno::before {
+    content: url(../imagenes/01.png);
+    max-width: 85px;
+}
+
+.dos::before {
+    content: url(../imagenes/02.png);
+    max-width: 800px;
+}
+
+.tres::before {
+    content: url(../imagenes/03.png);
+    max-width: 85px;
+}
+
+/** SECCIÓN PARA MEDIA QUERIES 1150px **/
+
+@media screen and (max-width: 1150px) {
+
+    /**     HEADER     **/
+    /** SECCIÓN DE CABECERA   -   MEDIA QUERIES 1150PX **/
+    .cabecera {
+        justify-content: space-between;
+        margin-bottom: 100px;
+        width: 100vw;
+    }
+
+    .menuSuperior {
+        display: none;
+        width: 50vw;
+    }
+
+    .empezar1 {
+        display: none;
+    }
+
+    .logoMobile {
+        display: flex;
+        padding-right: 50px;
+    }
+
+    /**     MAIN     **/
+    /** SECCIÓN DE ESTADISTICA   -   MEDIA QUERIES 1150PX **/
+
+    .producto {
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 1100px;
+        margin-bottom: 0px;
+        text-align: center;
+        width: 99.2vw;
+    }
+
+    .descripcion {
+        height: 650px;
+        margin: 0;
+        text-align: center;
+        width: 60vw;
+    }
+
+    .titulo {
+        font-size: 50px;
+        padding: 10px 80px;
+    }
+
+    .parrafo__boton {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        justify-content: center;
+    }
+
+    .parrafo1 {
+        font-size: 15px;
+        font-weight: 500;
+        margin: auto;
+        padding-bottom: 0px;
+        width: 30vw;
+    }
+
+    .empezar2 {
+        left: 450px;
+        margin: 10px;
+        margin-bottom: 10px;
+        right: 450px;
+        width: 22vw;
+    }
+
+    /** SECCIÓN DE CLASIFICACIÓN   -   MEDIA QUERIES 1150PX **/
+
+    .clasificacion {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subtitulo1 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        text-align: center;
+        width: 40vw;
+    }
+
+    .parrafo2 {
+        width: 40vw;
+    }
+
+    .diferencias {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 15px;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .tabla {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    .uno {
+        width: 490px;
+    }
+
+    .dos {
+        width: 500px;
+    }
+
+    .tabla article {
+        padding-left: 20px;
+        width: 320px;
+    }
+
+    /** SECCIÓN DE OPINIONES   -   MEDIA QUERIES 1150PX **/
+    .equipo {
+        height: 900PX;
+        width: 99.2vw;
+    }
+
+    .opiniones {
+        display: flex;
+        height: 500px;
+        justify-content: space-between;
+    }
+
+    .opiniones {
+        background-color: rgba(148, 0, 211, 0)
+    }
+
+    .detalle1 {
+        display: none;
+    }
+
+    .detalle2 {
+        border: 5px solid white;
+        flex-direction: column;
+        height: 450px;
+        width: 50vw;
+    }
+
+    .detalle3 {
+        display: none;
+    }
+
+    .empezar3 {
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
+        width: 20vw;
+    }
+
+    /** SECCIÓN DE ESLOGAN   -   MEDIA QUERIES 1150PX **/
+    .eslogan {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .eslogan h2 {
+        font-size: 45px;
+        text-align: center;
+        width: 40vw;
+    }
+
+    .empezar4 {
+        width: 15vw;
+    }
+
+    /**     FOOTER     **/
+    /** SECCIÓN DE CIERRE   -   MEDIA QUERIES 1150PX **/
+    .pieDePagina {
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 800px;
+        justify-content: center;
+    }
+
+    .redes {
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        width: 99.2vw;
+    }
+
+    .logoInferior {
+        margin-left: 8px;
+        margin-right: 65px;
+    }
+
+    .iconos {
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+
+    .menuInferior {
+        align-items: center;
+        display: flex;
+        height: 550px;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        margin: 30 auto;
+        width: 99.2vw;
+    }
+
+    .menuInferior1 {
+        margin: 0 auto;
+        padding-left: 80px;
+        text-align: left;
+        width: 30vw;
+    }
+
+    .menuInferior2 {
+        height: 280px;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-left: 60px;
+        text-align: left;
+        width: 35vw;
+    }
+
+    .formulario {
+        margin-top: 80px;
+        width: 45vw;
+    }
+
+    /** SECCIÓN DE AUTOR / DERECHOS **/
+    .autor {
+        padding-bottom: 0px;
+        padding-right: 25px;
+    }
+}
+
+/** SECCIÓN PARA MEDIA QUERIES 800px **/
+
+@media screen and (max-width: 800px) {
+
+    /**     HEADER     **/
+    /** SECCIÓN DE CABECERA   -   MEDIA QUERIES 800PX **/
+    .cabecera {
+        justify-content: space-between;
+        margin-bottom: 60px;
+        width: 99.2vw;
+    }
+
+    .logoSuperior {
+        padding: 15px;
+    }
+
+    .logoMobile {
+        display: flex;
+        padding-right: 5px;
+    }
+
+    /**     MAIN     **/
+    /** SECCIÓN DE ESTADISTICA   -   MEDIA QUERIES 800PX **/
+    .producto {
+        margin-bottom: 5px;
+        width: 99.2vw;
+    }
+
+    .descripcion {
+        height: 500px;
+        width: 99.2vw;
+    }
+
+    .variables {
+        width: 98vw;
+    }
+
+    .titulo {
+        font-size: 35px;
+        padding: 10px 50px;
+    }
+
+    .parrafo1 {
+        width: 70vw;
+    }
+
+    .empezar2 {
+        margin: 15px;
+        width: 30vw;
+    }
+
+    /** SECCIÓN DE CLASIFICACIÓN   -    MEDIA QUERIES 800 PX **/
+    .clasificacion {
+        height: 920px;
+        margin: 0 auto;
+        padding: 0px;
+        width: 99.2vw;
+    }
+
+    .subtitulo1 {
+        font-size: 30px;
+        width: 80vw;
+    }
+
+    .diferencias {
+        width: 99.2vw;
+    }
+
+    .parrafo2 {
+        font-size: 15px;
+        width: 80vw;
+    }
+
+    .tabla {
+        padding-left: 0px;
+        width: 99.2vw;
+    }
+
+    .tabla li {
+        font-size: 18px;
+       justify-content: flex-start;
+       gap: 10px;
+       padding-left: 50px;
+    }
+
+    .tabla p {
+        padding-bottom: 20px;
+        width: 88vw;
+    }
+
+    .tabla article {
+        padding-left: 30px;
+        width: 99.2vw;
+    }
+
+    /** SECCIÓN DE OPINIONES   -   MEDIA QUERIES 800PX **/
+    .equipo {
+        height: 750px;
+    }
+
+    .subtitulo2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        padding: 30px;
+    }
+
+    .opiniones {
+        height: 350px;
+        width: 99.2vw;
+    }
+
+    .detalle2 {
+        height: 40vh;
+        width: 99.2vw;
+    }
+
+    .nombre {
+        font-size: 25px;
+        padding-top: 15 px;
+    }
+
+    .foto {
+        width: 20vw;
+    }
+
+    .textos {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .empezar3 {
+        height: 50px;
+        margin-top: 130px;
+        width: 30vw;
+    }
+
+    /** SECCIÓN DE ESLOGAN   -    MEDIA QUERIES 800PX **/
+    .eslogan {
+        flex-direction: column;
+        height: 350px;
+    }
+
+    .eslogan h2 {
+        font-size: 25px;
+        margin-top: 80px;
+        width: 55vw;
+    }
+
+    .empezar4 {
+        width: 30vw;
+    }
+
+    /**     FOOTER     **/
+    /** SECCIÓN DE CIERRE   -   MEDIA QUERIES 800PX **/
+    .redes {
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    .logoInferior {
+        margin-left: 0px;
+    }
+
+    .menuInferior {
+        margin: 0 auto;
+        padding-top: 0px;
+        width: 99.2vw;
+    }
+
+    .menuInferior1 {
+        font-size: 25px;
+        padding-left: 30px;
+        width: 45vw;
+    }
+
+    .menuInferior2 {
+        font-size: 24px;
+        gap: 40px;
+        height: 250px;
+        padding: 0px;
+        padding-left: 35px;
+        width: 50vw;
+    }
+
+    .formulario {
+        margin-top: 50px;
+        width: 99.2vw;
+    }
+
+    .formulario a {
+        font-size: 20px;
+        margin-right: 18px;
+    }
+
+    /** SECCIÓN DE AUTOR / DERECHOS **/
+    .autor {
+        justify-content: center;
+        padding-bottom: 0px;
+        padding-right: 30px;
+        text-align: center;
+        width: 99.2vw;
+    }
+
+}
