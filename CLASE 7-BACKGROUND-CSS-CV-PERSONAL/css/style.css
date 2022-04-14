@@ -1,16 +1,70 @@
-.imagen-perfil  {
-   background-image: url(../images/Nicolas.jpeg);
-   background-position: top right;
-   background-size: contain;
-   background-repeat: no-repeat;
-   height: 190px;
-   width: 100%;
+* {
+     font-family: sans-serif;
+ }
 
-}
-body {
-    background-image: url(../images/imagen-fondo3.png);
-    background-size: cover;
-    background-repeat: repeat-y;
-    opacity: 1;
-    
-}
+ 
+ .contenedorNombre {
+     display: flex;
+     background-color: grey;
+     justify-content: flex-end;
+     height: 100px;
+ }
+ 
+ .nombre {
+     display: flex;
+     align-items: center;
+     font-size: 50px;
+     color: white;
+ }
+ 
+ .contenedorImagen {
+     display: flex;
+     justify-content: flex-end;
+     margin: 10px;
+ }
+
+ .imagenPerfil {
+     height: 250px;
+     width: 250px;
+ }
+ 
+ main {
+     background-image: url(../images/fondo-curriculum.jpg);
+ }
+ 
+ h1 {
+     text-decoration: underline;  
+ }
+ 
+ 
+ .formacionAcademica {
+     text-decoration: underline;
+     text-align: center;
+ }
+ 
+ .experiencia {
+      text-decoration: underline;
+      text-align: center;
+ }
+
+ .habilidades {
+     text-decoration: underline;
+     text-align: center;
+ }
+ 
+ footer {
+     background-color: rgba(53, 47, 47, 0.638);
+      padding: 10px;
+     }
+     
+     footer h2 {
+          display: flex;
+          justify-content: center;
+     }
+
+ footer div {
+      display: flex;
+      justify-content: space-around;
+ }
+ 
+
